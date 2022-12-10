@@ -77,6 +77,8 @@ GEM
       irb (>= 1.5.0)
       reline (>= 0.3.1)
     erubi (1.11.0)
+    fast_jsonapi (1.5)
+      activesupport (>= 4.2)
     globalid (1.0.0)
       activesupport (>= 5.0)
     i18n (1.12.0)
@@ -184,6 +186,7 @@ PLATFORMS
 DEPENDENCIES
   bootsnap
   debug
+  fast_jsonapi
   importmap-rails
   jbuilder
   puma (~> 5.0)
@@ -199,4 +202,4 @@ RUBY VERSION
    ruby 3.0.2p107
 
 BUNDLED WITH
-   2.3.26
+   2.3.10
