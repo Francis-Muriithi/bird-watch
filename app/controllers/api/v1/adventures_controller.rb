@@ -1,6 +1,6 @@
 module Api
     module V1
-        class AdventureController < ApplicationController
+        class AdventuresController < ApplicationController
 
             def index
                 adventures = Adventure.all
